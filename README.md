@@ -1,7 +1,8 @@
 # mpv-cfg
-My MPV configuration based on MPV-Lazy.
+My MPV configuration based on [MPV-Lazy](https://github.com/hooke007/MPV_lazy).
 
-[MPV-Lazy](https://github.com/hooke007/MPV_lazy)
+IPTV from [IPTV-JP](https://github.com/luongz/iptv-jp/blob/main/jp.m3u), adjusted for personal use.
+New shortcut for watching IPTV.
 
 ## VS濾鏡
 https://github.com/hooke007/MPV_lazy/wiki/3_K7sfunc
