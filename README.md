@@ -4,11 +4,9 @@ My MPV configuration based on [MPV-Lazy](https://github.com/hooke007/MPV_lazy).
 IPTV from [IPTV-JP](https://github.com/luongz/iptv-jp/blob/main/jp.m3u), adjusted for personal use.
 New shortcut for watching IPTV.
 
-Input English: input_en.conf
-Input Chinese: input_cn.conf
-Default Input: input_uosc.conf (Chinese)
+Rename input_en.conf to input_uosc.conf for English Menu
 
-## Key Map
+## Basic Key Map
 - **F1 ~ F4:** VS Filter
 - **F5:** Quick Shortcut for YouTube Clips. (Step: Copy --> F5 --> Paste --> Enter)
 - **F6:** Quick Shortcut for Playlist. (Step: F6 --> Playlist Index --> Enter)
@@ -17,22 +15,24 @@ Default Input: input_uosc.conf (Chinese)
 - **F9:** Show Current VS Filter and Equalizer.
 - **Ctrl + [1 ~ 6]:** GLSL Filter
 
-## VS濾鏡
+## VS Filter
 https://github.com/hooke007/MPV_lazy/wiki/3_K7sfunc
 VS濾鏡本人使用RIFE補幀，再以ESRGAN超分。
 不推薦使用MVTools，有畫面撕裂問題。
 
-Ctrl+0 清空。以下預設皆需NVIDIA顯卡。
-### 標準預設（雙倍幀數超分） Standard Preset (2XFPS SR)
-- SD480P-->QHD1440P **F1**
-- HD720P-->QHD1440P **F2** 標準
-- HD720P-->UHD2160P **F3**
-  - 經本人測試4070Super並不能流暢播放，效果和標準差異並不大。
-- FHD1080P-->UHD2160P **F4**
-  - 使用4070Super可流暢播放。
+Ctrl+0 to Remove All VS Filter
+Preset tuned for NVIDIA RTX 4070 Super
+Only for Anime.
+### Standard Preset
+- F1 LD(360p)→QHD(1440p) 4×RES 2×FPS
+- Ctrl+F1 SD(480p)→QHD(1440p) 3×RES 2×FPS
+- F2 TV(540p)→FHD(1080p) 2×RES 2×FPS
+- F3 HD(720p)→QHD(1440p) 2×RES 2×FPS
+- F4 FHD(1080p)→UHD(2160p) 2×RES 2×FPS
 
-## 着色器
+## GLSL Filter
 https://hooke007.github.io/unofficial/mpv_shaders.html
 配置允許下建議使用VS濾鏡預設。
-預設與Anime4K無異。
+Use VS Filter Preset if your spec allow.
+Default Anime 4K (High) Preset
 https://github.com/bloc97/Anime4K/blob/master/md/GLSL_Instructions_Advanced.md
