@@ -12,6 +12,7 @@ Rename/Replace input_en.conf to input_uosc.conf in portable_config
 Rename/Replace lang_en.lua to lang.lua in portable_config/scripts/uosc/lib
 
 ## Basic Key Map
+For detail keybind read input_uosc.conf or press Ctrl+i in MPV.
 - **F1 ~ F4:** VS Filter
 - **F5:** Quick Shortcut for YouTube Clips. (Step: Copy --> F5 --> Paste --> Enter)
 - **F6:** Quick Shortcut for Playlist. (Step: F6 --> Playlist Index --> Enter)
