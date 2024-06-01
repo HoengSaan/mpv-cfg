@@ -26,9 +26,9 @@ For detail keybind read input_uosc.conf or press **Ctrl + i** in MPV.
 https://github.com/hooke007/MPV_lazy/wiki/3_K7sfunc
 
 This preset is tuned for NVIDIA RTX 4070 Super and only work for anime.
-This preset use RIFE for frame interpolation and ESRGAN for super resoulution for best effect.
+This preset use RIFE for frame interpolation and ESRGAN for super resoulution to achieve the best effect.
 You can change RIFE to MVTools for lower spec PC. However, MVTools's effect is not as good as RIFE.
-If your spec is even lower, use Anime4K instead.
+If your spec is even lower, use Anime4K instead of ESRGAN.
 
 Use **Ctrl + 0** to Remove All VS Filter
 Use **F9** to check if VS Filter working or not.
