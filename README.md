@@ -41,5 +41,7 @@ Use **F9** to check if VS Filter working or not.
 
 ## Anime4K Preset
 https://hooke007.github.io/unofficial/mpv_shaders.html
+
 https://github.com/bloc97/Anime4K/blob/master/md/GLSL_Instructions_Advanced.md
+
 Use VS Filter Preset if your spec allow.
