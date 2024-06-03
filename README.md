@@ -33,6 +33,10 @@ For detailed key map:
 - **F9:** Show Current VS Filter, Equalizer and other important information
 - **Tab:** Toggle Stat Display
 - **Ctrl + (Shift) + [1 ~ 6]:** GLSL Shader Preset, see **"Preset"** for details
+- **Alt + [1 ~ 7]:** MEMC RIFE NV
+- **Shift + [1 ~ 6]:** SR ESRGAN NV
+- **[1 ~ 0]:** Window Adjustment
+- **[q ~ p]:** Equalizer
 
 ## Subtitle
 External subtitle must containing the media filename or else will not be recognize.
