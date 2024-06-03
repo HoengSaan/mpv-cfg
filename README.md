@@ -49,7 +49,7 @@ https://hooke007.github.io/unofficial/mpv_shaders.html
 https://github.com/bloc97/Anime4K/blob/master/md/GLSL_Instructions_Advanced.md
 
 Use VS Filter Preset if your spec allow.
-This preset is tuned for NVIDIA RTX 4070 Super and only work for anime.
+This preset is tuned for NVIDIA RTX 4070 Super and only work for anime, and better without hard subtitle (subtitle that are burnt in the video track), always use soft subtitle, either external (inn the folder) or internal (in the container).
 This preset use RIFE for frame interpolation and ESRGAN for super resoulution to achieve the best effect.
 You can change RIFE to MVTools for lower spec PC. However, MVTools's effect is not as good as RIFE.
 If your spec is even lower, use Anime4K instead of ESRGAN.
