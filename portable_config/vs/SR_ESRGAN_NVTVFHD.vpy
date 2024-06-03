@@ -13,7 +13,7 @@ clip = video_in
 
 H_Pre = 540
 Lt_Hd = False
-Model = 5007
+Model = 5006
 Gpu = 0
 Gpu_T = 2
 St_Eng = False
