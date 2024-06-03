@@ -4,12 +4,15 @@ My MPV configuration based on [MPV-Lazy](https://github.com/hooke007/MPV_lazy).
 IPTV from [IPTV-JP](https://github.com/luongz/iptv-jp/blob/main/jp.m3u), adjusted for personal use.
 New shortcut for watching IPTV.
 
-## Localization
-Default Language: Traditional Chinese
+## Installation 
+1. Download newest archive from release and unarchive to destinated path. (Do not need if downloaded already)
+2. Download newest portable config directly and replace existing config.
+3. For English UI, see "Localization"
 
-### English Menu
-Rename/Replace input_en.conf to input_uosc.conf in portable_config
-Rename/Replace lang_en.lua to lang.lua in portable_config/scripts/uosc/lib
+### Localization
+Default Language: Traditional Chinese
+1. Rename/Replace input_en.conf to input_uosc.conf in portable_config
+2. Rename/Replace lang_en.lua to lang.lua in portable_config/scripts/uosc/lib
 
 ## Basic Key Map
 For detail keybind read input_uosc.conf or press **Ctrl + i** in MPV.
