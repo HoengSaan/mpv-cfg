@@ -42,6 +42,10 @@ For detailed key map:
 External subtitle must containing the media filename or else will not be recognize.
 Recommend putting subtitles in subfolder. Folder name should be "sub" or "subtitles", if you perfer other naming, you need to edit it in mpv.conf.
 
+### Traditionalization (繁化)
+自動繁化依賴：[ayaka14732/FanWunMing](https://github.com/ayaka14732/FanWunMing)
+須在電腦安裝本字體否則無法啓用繁化。如果使用ASS字幕則需按「h」或「Shift + h」鍵強制取代字幕樣式。
+
 ## Audio
 External audio must containing the media filename or else will not be recognize.
 
