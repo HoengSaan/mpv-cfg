@@ -43,8 +43,11 @@ External subtitle must containing the media filename or else will not be recogni
 Recommend putting subtitles in subfolder. Folder name should be "sub" or "subtitles", if you perfer other naming, you need to edit it in mpv.conf.
 
 ### Traditionalization (繁化)
-自動繁化依賴：[ayaka14732/FanWunMing](https://github.com/ayaka14732/FanWunMing)
-須在電腦安裝本字體否則無法啓用繁化。如果使用ASS字幕則需按「h」或「Shift + h」鍵強制取代字幕樣式。
+自動繁化字體
+1. [ayaka14732/FanWunMing](https://github.com/ayaka14732/FanWunMing)
+2. [GuiWonder/HuayingMincho](https://github.com/GuiWonder/HuayingMincho) （正在使用）
+3. [GuiWonder/Shanggu](https://github.com/GuiWonder/Shanggu)
+須在電腦安裝自動繁化字體否則無法啓用繁化。如果使用ASS字幕則需按「h」或「Shift + h」鍵強制取代字幕樣式。
 
 ## Audio
 External audio must containing the media filename or else will not be recognize.
