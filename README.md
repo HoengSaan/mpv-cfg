@@ -14,6 +14,7 @@ IPTV from [IPTV-JP](https://github.com/luongz/iptv-jp/blob/main/jp.m3u), adjuste
 Default Language（默認語言）: English
 
 To change language, open **"portable_config/mpv.conf"** with a text editor such as Notepad++, and change "input-conf" to your intended language.
+
 欲想更改語言，請用諸如Notepad++等文本編輯器開啓「portable_config/mpv.conf」，然後將「input-conf」改成閣下欲用語言。
 ```
 input-conf = "~~/input_en.conf" #English
@@ -44,6 +45,7 @@ For detailed key map 詳細見圖請見:
 ## Subtitle 字幕
 External subtitle must containing the media filename or else will not be recognize.
 Recommend putting subtitles in subfolder. Folder name should be "sub" or "subtitles", if you perfer other naming, you need to edit it in mpv.conf.
+
 外掛字幕必須包含媒體文件名、否則將無法識別。
 推薦將字幕放於子文件夾中，竝命名爲「sub」或「subtitles」，若閣下欲用其他命名方式，則須在「mpv.conf」中修改。
 
@@ -57,6 +59,7 @@ Recommend putting subtitles in subfolder. Folder name should be "sub" or "subtit
 
 ## Audio 音軌
 External audio must containing the media filename or else will not be recognize.
+
 外掛音軌必須包含媒體文件名、否則將無法識別。
 
 ## Preset 預設
