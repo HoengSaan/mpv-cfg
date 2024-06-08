@@ -46,7 +46,8 @@ Recommend putting subtitles in subfolder. Folder name should be "sub" or "subtit
 1. [ayaka14732/FanWunMing](https://github.com/ayaka14732/FanWunMing)
 2. [GuiWonder/HuayingMincho](https://github.com/GuiWonder/HuayingMincho)
 3. [GuiWonder/Shanggu](https://github.com/GuiWonder/Shanggu) （正在使用）
-須在電腦安裝自動繁化字體否則無法啓用繁化。如果使用ASS字幕則需按「h」或「Shift + h」鍵強制取代字幕樣式。
+
+須在電腦安裝自動繁化字體並在input.conf設定，否則無法啓用繁化。如果使用ASS字幕則需按「h」或「Shift + h」鍵強制取代字幕樣式。可使用Nexusfont檢視字體效果。
 
 ## Audio
 External audio must containing the media filename or else will not be recognize.
