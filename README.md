@@ -1,8 +1,7 @@
 # mpv-cfg
-My MPV configuration based on [MPV-Lazy](https://github.com/hooke007/MPV_lazy).
+MPV configuration based on [MPV-Lazy](https://github.com/hooke007/MPV_lazy). Fully controllable by Keyborad.
 
 IPTV from [IPTV-JP](https://github.com/luongz/iptv-jp/blob/main/jp.m3u), adjusted for personal use.
-New shortcut for watching IPTV.
 
 ## Installation 
 1. Download newest archive from release and unarchive to destinated path. (Do not need if downloaded already)
@@ -43,7 +42,7 @@ External subtitle must containing the media filename or else will not be recogni
 Recommend putting subtitles in subfolder. Folder name should be "sub" or "subtitles", if you perfer other naming, you need to edit it in mpv.conf.
 
 ### Traditionalization (繁化)
-自動繁化字體
+自動繁化是基於OpenType特性，繁化結果不一定正確。
 1. [ayaka14732/FanWunMing](https://github.com/ayaka14732/FanWunMing)
 2. [GuiWonder/HuayingMincho](https://github.com/GuiWonder/HuayingMincho)
 3. [GuiWonder/Shanggu](https://github.com/GuiWonder/Shanggu) （正在使用）
