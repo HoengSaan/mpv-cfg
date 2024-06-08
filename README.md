@@ -33,7 +33,6 @@ input-conf = "~~/input_jp.conf" #Japanese
 ```
 
 ## Basic Key Map 基本鍵圖
-
 - **F1 ~ F4:** VS Filter Preset, see **"Preset"** for details
 - **F5:** Quick Shortcut for YouTube Clips (Step: Copy --> F5 --> Paste --> Enter)
 - **F6:** Quick Shortcut for Playlist (Step: F6 --> Playlist Index --> Enter)
@@ -47,7 +46,7 @@ input-conf = "~~/input_jp.conf" #Japanese
 - **[1 ~ 0]:** Window Adjustment
 - **[q ~ p]:** Equalizer
 
-For detailed key map 詳細見圖請見:
+For detailed key map 詳細鍵圖請見:
 1. read the config instead.
 2. press **Ctrl + i** in MPV.
 3. press **Tab** and press **4** in MPV.
@@ -59,13 +58,17 @@ Recommend putting subtitles in subfolder. Folder name should be "sub" or "subtit
 外掛字幕必須包含媒體文件名、否則將無法識別。
 推薦將字幕放於子文件夾中，竝命名爲「sub」或「subtitles」，若閣下欲用其他命名方式，則須在「mpv.conf」中修改。
 
-### Traditionalization 繁化
-自動繁化是基於OpenType特性，繁化結果不一定正確。
+### Traditionalization 繁化 旧字体転換
+自動繁化是基於字體之OpenType特性，結果不一定正確。
+
+自動旧字体転換はフォントのOpenTypeの機能に基づいているため、結果が正しくない場合があります。
 1. [ayaka14732/FanWunMing](https://github.com/ayaka14732/FanWunMing)
 2. [GuiWonder/HuayingMincho](https://github.com/GuiWonder/HuayingMincho)
-3. [GuiWonder/Shanggu](https://github.com/GuiWonder/Shanggu) （正在使用）
+3. [GuiWonder/Shanggu](https://github.com/GuiWonder/Shanggu)
 
-須在電腦安裝自動繁化字體並在input.conf設定，否則無法啓用繁化。如果使用ASS字幕則需按「h」或「Shift + h」鍵取代字幕樣式。可使用Nexusfont檢視字體效果。
+須在電腦安裝自動繁化字體並在input.conf設定，否則無法啓用繁化。如果使用ASS字幕則需按「h」（主字幕）或「Shift + h」（副字幕）鍵取代字幕樣式。
+
+自動旧字体転換フォントをデバイスにインストールして、input.confで設定する必要があります。 ASS字幕を使用する場合は、「h」（主字幕）または 「Shift + h」」（副字幕）で一度字幕の様式を上書きする必要があります。
 
 ## Audio 音軌
 External audio must containing the media filename or else will not be recognize.
