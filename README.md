@@ -16,9 +16,19 @@ Default Language（默認語言）: English
 To change language, open **"portable_config/mpv.conf"** with a text editor such as Notepad++, and change "input-conf" to your intended language.
 
 欲想更改語言，請用諸如Notepad++等文本編輯器開啓「portable_config/mpv.conf」，然後將「input-conf」改成閣下欲用語言。
+
+#### English
 ```
 input-conf = "~~/input_en.conf" #English
+```
+
+#### Traditional Chinese
+```
 input-conf = "~~/input_tc.conf" #Traditional Chinese
+```
+
+#### Japanese
+```
 input-conf = "~~/input_jp.conf" #Japanese
 ```
 
