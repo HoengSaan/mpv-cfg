@@ -4,16 +4,16 @@ MPV configuration based on [MPV-Lazy](https://github.com/hooke007/MPV_lazy). Ful
 IPTV from [IPTV-JP](https://github.com/luongz/iptv-jp/blob/main/jp.m3u), adjusted for personal use.
 
 ## Installation 安裝
-1. Download newest archive from release and unarchive to destinated path. (Do not need if downloaded already)
-2. Download newest portable config directly and replace existing config.
-
-1. 從Release中下載最新版本竝解壓至目標路徑。（如已有狹窄則不需）
+1. Download the latest archive from the release and unarchive it to the intended location. (This step is not necessary if the archive has already been downloaded.)
+2. Download the latest portable configuration directly and replace the existing configuration.
+  
+1. 從Release中下載最新版本竝解壓至目標路徑。（如已下載則可跳過）
 2. 下載最新Portable Config竝取代已有Config。
 
 ### Localization 本地化
 Default Language（默認語言）: English
 
-To change language, open **"portable_config/mpv.conf"** with a text editor such as Notepad++, and change "input-conf" to your intended language.
+To change the language, please open "portable_config/mpv.conf" with a text editor such as Notepad++ and change "input-conf" to the language you require.
 
 欲想更改語言，請用諸如Notepad++等文本編輯器開啓「portable_config/mpv.conf」，然後將「input-conf」改成閣下欲用語言。
 
@@ -52,13 +52,15 @@ For detailed key map 詳細鍵圖請見:
 3. press **Tab** and press **4** in MPV.
 
 ## Subtitle 字幕
-External subtitle must containing the media filename or else will not be recognize.
-Recommend putting subtitles in subfolder. Folder name should be "sub" or "subtitles", if you perfer other naming, you need to edit it in mpv.conf.
+Please note that external subtitles must contain the media filename in order for them to be recognised.
+It is recommended that subtitles be placed in a subfolder. The folder name should be "sub" or "subtitles". If you wish to use a different naming convention, you will need to edit the mpv.conf file.
 
 外掛字幕必須包含媒體文件名、否則將無法識別。
 推薦將字幕放於子文件夾中，竝命名爲「sub」或「subtitles」，若閣下欲用其他命名方式，則須在「mpv.conf」中修改。
 
 ### Traditionalization 繁化 旧字体転換
+This part is only for Chinese and Japanese subtitle users.
+
 自動繁化是基於字體之OpenType特性，結果不一定正確。
 
 自動旧字体転換はフォントのOpenTypeの機能に基づいているため、結果が正しくない場合があります。
@@ -68,10 +70,14 @@ Recommend putting subtitles in subfolder. Folder name should be "sub" or "subtit
 
 須在電腦安裝自動繁化字體並在input.conf設定，否則無法啓用繁化。如果使用ASS字幕則需按「h」（主字幕）或「Shift + h」（副字幕）鍵取代字幕樣式。
 
-自動旧字体転換フォントをデバイスにインストールして、input.confで設定する必要があります。 ASS字幕を使用する場合は、「h」（主字幕）または 「Shift + h」」（副字幕）で一度字幕の様式を上書きする必要があります。
+自動旧字体転換フォントをデバイスにインストールして、input.confで設定する必要があります。 ASS字幕を使用する場合は、「h」（主字幕）または 「Shift + h」（副字幕）で一度字幕の様式を上書きする必要があります。
+
+### Font for Latin Script
+Please note that the default font in this configuration is not for Latin Script. To change the font, simply press "Shift + f". The default font is "Shanggu Round HW Medium (East Asian)", which can be changed to "Bagnard", "Amira Black" or "Arial Black".
+To apply the change for ASS Subtitle, press "h" for the first subtitle and/or "Shift + h" for the second subtitle to overwrite the style stated in ASS. Normally, this is not necessary as the ASS Subtitle using Latin Script is set to display with the appropriate font.
 
 ## Audio 音軌
-External audio must containing the media filename or else will not be recognize.
+Please note that external audio must contain the media filename in order for them to be recognised.
 
 外掛音軌必須包含媒體文件名、否則將無法識別。
 
@@ -80,22 +86,20 @@ https://github.com/hooke007/MPV_lazy/wiki/3_K7sfunc
 
 https://hooke007.github.io/unofficial/mpv_shaders.html
 
-https://github.com/bloc97/Anime4K/blob/master/md/GLSL_Instructions_Advanced.md
-
-Use VS Filter Preset if your spec allow.
-This preset is tuned for NVIDIA RTX 4070 Super and only work for anime, and better without hard subtitle (subtitle that are burnt in the video track), always use soft subtitle, either external (inn the folder) or internal (in the container).
+If your specs allow, use the VS Filter Preset.
+This preset is tuned for NVIDIA RTX 4070 Super and works best for anime. It's better without hard subtitles (subtitles that are burned into the video track). Always use soft subtitles, either external (in the folder) or internal (in the container).
 This preset use **"RIFE"** for frame interpolation and **"ESRGAN"** for super resoulution to achieve the best effect.
 You can change **"RIFE"** to **"MVTools"** for lower spec PC. However, **"MVTools"**'s effect is not as good as **"RIFE"**.
 If your spec is even lower, use **"Anime4K"** instead of **"ESRGAN"**.
 
-請用VS濾鏡預設若閣下配置允許。
+若閣下配置允許請用VS濾鏡預設。
 本預設是基於NVIDIA RTX 4070 Super調整，竝祇適用於動畫，且避免使用硬字幕。
 本預設使用「RIFE」進行補幀，再以「ESRGAN「進行超分，以達到最佳效果。
 若配置較低，可將「RIFE」更改爲「MVTools」，但「MVTools」效果不如「RIFE」。
 若配置更差，請使用「Anime4K」取代VS濾鏡。
 
-Use **Ctrl + 0** to remove all alteration.
-Use **F9** to check.
+Use **Ctrl + 0** to remove all preset.
+Use **F9** to check if the preset applied.
 
 ### Standard VS Preset 標準VS預設
 - **F1** LD(360p)→QHD(1440p) 4×RES 2×FPS
