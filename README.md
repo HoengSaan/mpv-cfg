@@ -6,8 +6,7 @@ IPTV from [IPTV-JP](https://github.com/luongz/iptv-jp/blob/main/jp.m3u), adjuste
 ## Installation 安裝
 1. Download the latest archive from the release and unarchive it to the intended location. (This step is not necessary if the archive has already been downloaded.)
 2. Download the latest portable configuration directly and replace the existing configuration.
-
-
+  
 1. 從Release中下載最新版本竝解壓至目標路徑。（如已下載則可跳過）
 2. 下載最新Portable Config竝取代已有Config。
 
@@ -88,18 +87,25 @@ https://github.com/hooke007/MPV_lazy/wiki/3_K7sfunc
 https://hooke007.github.io/unofficial/mpv_shaders.html
 
 If your specs allow, use the VS Filter Preset.
-This preset is tuned for NVIDIA RTX 4070 Super and works best for anime. It's better without hard subtitles (subtitles that are burned into the video track). Always use soft subtitles, either external (in the folder) or internal (in the container).
+
+This preset is tuned for NVIDIA RTX 4070 Super and works best for anime. It's better without hard subtitles (subtitles that are burned into the video track).
+
 This preset use **"RIFE"** for frame interpolation and **"ESRGAN"** for super resoulution to achieve the best effect.
 You can change **"RIFE"** to **"MVTools"** for lower spec PC. However, **"MVTools"**'s effect is not as good as **"RIFE"**.
+
 If your spec is even lower, use **"Anime4K"** instead of **"ESRGAN"**.
 
 若閣下配置允許請用VS濾鏡預設。
+
 本預設是基於NVIDIA RTX 4070 Super調整，竝祇適用於動畫，且避免使用硬字幕。
+
 本預設使用「RIFE」進行補幀，再以「ESRGAN「進行超分，以達到最佳效果。
 若配置較低，可將「RIFE」更改爲「MVTools」，但「MVTools」效果不如「RIFE」。
+
 若配置更差，請使用「Anime4K」取代VS濾鏡。
 
 Use **Ctrl + 0** to remove all preset.
+
 Use **F9** to check if the preset applied.
 
 ### Standard VS Preset 標準VS預設
