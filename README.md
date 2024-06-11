@@ -70,7 +70,7 @@ This part is only for Chinese and Japanese subtitle users.
 
 須在電腦安裝自動繁化字體並在input.conf設定，否則無法啓用繁化。如果使用ASS字幕則需按「h」（主字幕）或「Shift + h」（副字幕）鍵取代字幕樣式。
 
-自動旧字体転換フォントをデバイスにインストールして、input.confで設定する必要があります。 ASS字幕を使用する場合は、「h」（主字幕）または 「Shift + h」（副字幕）で一度字幕の様式を上書きする必要があります。
+自動旧字体転換フォントをデバイスにインストールして、input.confで設定する必要があります。 ASS字幕を使用する場合は、「h」（主字幕）または 「Shift + h」（副字幕）で一度字幕の書式を上書きする必要があります。
 
 ### Font for Latin Script
 Please note that the default font in this configuration is not for Latin Script. To change the font, simply press "Shift + f". The default font is "Shanggu Round HW Medium (East Asian)", which can be changed to "Bagnard", "Amira Black" or "Arial Black".
