@@ -15,19 +15,25 @@ To change the language, please open "portable_config/mpv.conf" with a text edito
 
 欲想更改語言，請用諸如Notepad++等文本編輯器開啓「portable_config/mpv.conf」，然後將「input-conf」改成閣下欲用語言。
 
-#### English
+#### English (Default)
 ```
 input-conf = "~~/input_en.conf" #English
 ```
 
-#### Traditional Chinese
+#### Traditional Chinese 繁中
 ```
 input-conf = "~~/input_tc.conf" #Traditional Chinese
 ```
 
-#### Japanese
+#### Japanese 日本語
 ```
 input-conf = "~~/input_jp.conf" #Japanese
+```
+
+#### Simplified Chinese 简中
+Auto Translated by opencc.
+```
+input-conf = "~~/input_sc.conf" #Simplified Chinese
 ```
 
 ## Basic Key Map 基本鍵圖
