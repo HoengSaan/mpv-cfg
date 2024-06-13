@@ -1,8 +1,6 @@
 # mpv-cfg
 MPV configuration based on [MPV-Lazy](https://github.com/hooke007/MPV_lazy). Fully controllable by Keyborad.
 
-IPTV from [IPTV-JP](https://github.com/luongz/iptv-jp/blob/main/jp.m3u), adjusted for personal use.
-
 ## Installation 安裝
 1. Download the latest archive from the release and unarchive it to the intended location. (This step is not necessary if the archive has already been downloaded.)
 2. Download the latest portable configuration directly and replace the existing configuration.
