@@ -31,7 +31,7 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04
 #EXTINF:-1 group-title="Osaka" tvg-id="tv_osaka" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tvk_logo.svg/1920px-Tvk_logo.svg.png", テレビ大阪
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05
-#EXTINF:-1 group-title="Osaka" tvg-id="sun_tv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/SUN-TV_wordmark_2019.png", 
+#EXTINF:-1 group-title="Osaka" tvg-id="sun_tv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/SUN-TV_wordmark_2019.png", サンテレビ
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx07
 
 #BS1
