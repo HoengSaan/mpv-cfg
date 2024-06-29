@@ -4,7 +4,7 @@ MPV configuration based on [MPV-Lazy](https://github.com/hooke007/MPV_lazy). Ful
 ## Installation 安裝
 1. Download the latest archive from the release and unarchive it to the intended location. (This step is not necessary if the archive has already been downloaded.)
 2. Download the latest portable configuration directly and replace the existing configuration.
-  
+### 
 1. 從Release中下載最新版本竝解壓至目標路徑。（如已下載則可跳過）
 2. 下載最新Portable Config竝取代已有Config。
 
