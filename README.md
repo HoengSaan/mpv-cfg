@@ -37,6 +37,11 @@ input-conf = "~~/input_sc.conf" #Simplified Chinese
 ```
 
 ## Basic Key Map 基本鍵圖
+
+2026/02/13更新：鍵圖
+
+![](pic/keyboard-layout.jpg)
+
 - **F1 ~ F4:** VS Filter Preset, see **"Preset"** for details
 - **F5:** Quick Shortcut for YouTube Clips (Step: Copy --> F5 --> Paste --> Enter)
 - **F6:** Quick Shortcut for Playlist (Step: F6 --> Playlist Index --> Enter)
