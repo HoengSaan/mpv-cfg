@@ -1,4 +1,4 @@
-### https://github.com/hooke007/MPV_lazy/wiki/3_K7sfunc
+### https://github.com/hooke007/mpv_PlayKit/wiki/3_K7sfunc
 ### 基于黑米奇方案的修改简化版
 
 import vapoursynth as vs
@@ -28,6 +28,6 @@ Lk_Fmt = False
 
 ret = k7f.FPS_CTRL(clip, fps_in=container_fps, fps_ret=True)
 clip = k7f.FMT_CTRL(clip, h_max=H_Pre, fmt_pix=1 if Lk_Fmt else 0)
-clip = k7f.SVP_PRO(clip, fps_in=container_fps, fps_num=Fps_Num, fps_den=Fps_Den, abs=Abs, nvof=Nvof, gpu=0)
+clip = k7f.SVP_PRO(clip, fps_in=container_fps, fps_num=Fps_Num, fps_den=Fps_Den, abs=Abs, nvof=Nvof, gpu=Gpu)
 
 clip.set_output()

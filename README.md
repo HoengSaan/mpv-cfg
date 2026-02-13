@@ -1,64 +1,56 @@
 # mpv-cfg
-MPV configuration based on [MPV-Lazy](https://github.com/hooke007/MPV_lazy). Fully controllable by Keyborad.
+MPV configuration based on [MPV-Lazy](https://github.com/hooke007/MPV_lazy) (Obsoleted, use [MPV_PlayKit](https://github.com/hooke007/mpv_PlayKit)). Fully controllable by Keyborad.
 
 ## Installation 安裝
-1. Download the latest archive from the release and unarchive it to the intended location. (This step is not necessary if the archive has already been downloaded.)
-2. Download the latest portable configuration directly and replace the existing configuration.
-### 
-1. 從Release中下載最新版本竝解壓至目標路徑。（如已下載則可跳過）
-2. 下載最新Portable Config竝取代已有Config。
+Download the latest version with vsNV from [MPV_PlayKit](https://github.com/hooke007/mpv_PlayKit) and unarchive it to the intended location. And use this repo's configuration to replace the existing configuration.
 
-### Localization 本地化
-Default Language（默認語言）: English
+從[MPV_PlayKit](https://github.com/hooke007/mpv_PlayKit)中下載最新版本（含vsNV）竝解壓至目標路徑。並用本倉庫配置替代已有配置。
+
+## Localization 本地化
+Default Language（默認語言）: Traditional Chinese
 
 To change the language, please open "portable_config/mpv.conf" with a text editor such as Notepad++ and change "input-conf" to the language you require.
 
 欲想更改語言，請用諸如Notepad++等文本編輯器開啓「portable_config/mpv.conf」，然後將「input-conf」改成閣下欲用語言。
 
+### Menu 菜單
+
 #### English (Default)
+
 ```
 input-conf = "~~/input_en.conf" #English
 ```
 
 #### Traditional Chinese 繁中
+
 ```
 input-conf = "~~/input_tc.conf" #Traditional Chinese
 ```
 
 #### Japanese 日本語
+
 ```
 input-conf = "~~/input_jp.conf" #Japanese
 ```
 
 #### Simplified Chinese 简中
+
 Auto Translated by opencc.
 ```
 input-conf = "~~/input_sc.conf" #Simplified Chinese
 ```
 
-## Basic Key Map 基本鍵圖
+### UOSC 界面
 
-2026/02/13更新：鍵圖
+- 繁中：以`/uosc_lang/tc/lang.lua`替代`/portable_config/script/uosc/lib/lang.lua` with 
+- 简中：以`/uosc_lang/sc/lang.lua`替代`/portable_config/script/uosc/lib/lang.lua` 
+- No English Version
+
+## Key Map 鍵圖
+
+2026/02/14更新：鍵圖
 
 ![](pic/keyboard-layout.jpg)
-
-- **F1 ~ F4:** VS Filter Preset, see **"Preset"** for details
-- **F5:** Quick Shortcut for YouTube Clips (Step: Copy --> F5 --> Paste --> Enter)
-- **F6:** Quick Shortcut for Playlist (Step: F6 --> Playlist Index --> Enter)
-- **F7:** Show Current Playlist
-- **F8:** Show Current Media Trucks (Audio, Video, Subtitle)
-- **F9:** Show Current VS Filter, Equalizer and other important information
-- **Tab:** Toggle Stat Display
-- **Ctrl + (Shift) + [1 ~ 6]:** GLSL Shader Preset, see **"Preset"** for details
-- **Alt + [1 ~ 7]:** MEMC RIFE NV
-- **Shift + [1 ~ 6]:** SR ESRGAN NV
-- **[1 ~ 0]:** Window Adjustment
-- **[q ~ p]:** Equalizer
-
-For detailed key map 詳細鍵圖請見:
-1. read the config instead.
-2. press **Ctrl + i** in MPV.
-3. press **Tab** and press **4** in MPV.
 
 ## Subtitle 字幕
 Please note that external subtitles must contain the media filename in order for them to be recognised.
@@ -67,25 +59,14 @@ It is recommended that subtitles be placed in a subfolder. The folder name shoul
 外掛字幕必須包含媒體文件名、否則將無法識別。
 推薦將字幕放於子文件夾中，竝命名爲「sub」或「subtitles」，若閣下欲用其他命名方式，則須在「mpv.conf」中修改。
 
-### Traditionalization 繁化 旧字体転換
-This part is only for Chinese and Japanese subtitle users.
+### Change Font 字體變更
 
-自動繁化是基於字體之OpenType特性，結果不一定正確。
+To change the font, simply press "f". The default font is "WD-XL Lubrifont, which can be changed to "Bagnard", "Amira Black" or "Arial Black". To apply the change for ASS Subtitle, press "h" for the first subtitle and/or "Shift + h" for the second subtitle to overwrite the style stated in ASS. 
 
-自動旧字体転換はフォントのOpenTypeの機能に基づいているため、結果が正しくない場合があります。
-1. [ayaka14732/FanWunMing](https://github.com/ayaka14732/FanWunMing)
-2. [GuiWonder/HuayingMincho](https://github.com/GuiWonder/HuayingMincho)
-3. [GuiWonder/Shanggu](https://github.com/GuiWonder/Shanggu)
-
-須在電腦安裝自動繁化字體並在input.conf設定，否則無法啓用繁化。如果使用ASS字幕則需按「h」（主字幕）或「Shift + h」（副字幕）鍵取代字幕樣式。
-
-自動旧字体転換フォントをデバイスにインストールして、input.confで設定する必要があります。 ASS字幕を使用する場合は、「h」（主字幕）または 「Shift + h」（副字幕）で一度字幕の書式を上書きする必要があります。
-
-### Font for Latin Script
-Please note that the default font in this configuration is not for Latin Script. To change the font, simply press "Shift + f". The default font is "Shanggu Round HW Medium (East Asian)", which can be changed to "Bagnard", "Amira Black" or "Arial Black".
-To apply the change for ASS Subtitle, press "h" for the first subtitle and/or "Shift + h" for the second subtitle to overwrite the style stated in ASS. Normally, this is not necessary as the ASS Subtitle using Latin Script is set to display with the appropriate font.
+變更字體請按「f」，默認字體爲「WD-XL」滑油字，可被變更爲「Bagnard」，「Amira Black」，「Arial Black」。若使用ASS字幕，請按「h」強制覆蓋主字幕，「Shift + h」強制覆蓋副字幕。
 
 ## Audio 音軌
+
 Please note that external audio must contain the media filename in order for them to be recognised.
 
 外掛音軌必須包含媒體文件名、否則將無法識別。
@@ -127,3 +108,7 @@ Use **F9** to check if the preset applied.
 ### Standard Anime4K Preset 標準Anime4K預設
 - **Ctrl + [1 ~ 6]:** Anime4K High Quality Preset
 - **Ctrl + (Shift) + [1 ~ 6]:** Anime4K Low Quality Preset
+
+## Font 字體
+
+[NightFurySL2001/WD-XL-font: Source files of WD-XL Lubrifont ｜ WD-XL 滑油字 字型源文件](https://github.com/NightFurySL2001/WD-XL-font/)
