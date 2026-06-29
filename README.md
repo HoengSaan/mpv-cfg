@@ -11,7 +11,7 @@ Default Language（默認語言）: Traditional Chinese
 
 To change the language, please open "portable_config/mpv.conf" with a text editor such as Notepad++ and change "input-conf" to the language you require.
 
-欲想更改語言，請用諸如Notepad++等文本編輯器開啓「portable_config/mpv.conf」，然後將「input-conf」改成閣下欲用語言。
+欲更改語言，請用諸如Notepad++等文本編輯器開啓「portable_config/mpv.conf」，然後將「input-conf」改成閣下欲用語言。
 
 ### Menu 菜單
 
@@ -61,9 +61,9 @@ It is recommended that subtitles be placed in a subfolder. The folder name shoul
 
 ### Change Font 字體變更
 
-To change the font, simply press "f". The default font is "WD-XL Lubrifont, which can be changed to "Bagnard", "Amira Black" or "Arial Black". To apply the change for ASS Subtitle, press "h" for the first subtitle and/or "Shift + h" for the second subtitle to overwrite the style stated in ASS. 
+To change the font, simply press "f". The default font is "WD-XL Lubrifont", which can be changed to "Bagnard", "Amira Black" or "Arial Black". To apply the change for ASS Subtitle, press "h" for the first subtitle and/or "Shift + h" for the second subtitle to overwrite the style stated in ASS. 
 
-變更字體請按「f」，默認字體爲「WD-XL」滑油字，可被變更爲「Bagnard」，「Amira Black」，「Arial Black」。若使用ASS字幕，請按「h」強制覆蓋主字幕，「Shift + h」強制覆蓋副字幕。
+變更字體請按「f」，默認字體爲「WD-XL滑油字」，可被變更爲「Bagnard」，「Amira Black」，「Arial Black」。若使用ASS字幕，請按「h」強制覆蓋主字幕，「Shift + h」強制覆蓋副字幕。
 
 ## Audio 音軌
 
@@ -89,7 +89,7 @@ If your spec is even lower, use **"Anime4K"** instead of **"ESRGAN"**.
 
 本預設是基於NVIDIA RTX 4070 Super調整，竝祇適用於動畫，且避免使用硬字幕。
 
-本預設使用「RIFE」進行補幀，再以「ESRGAN「進行超分，以達到最佳效果。
+本預設使用「RIFE」進行補幀，再以「ESRGAN」進行超分，以達到最佳效果。
 若配置較低，可將「RIFE」更改爲「MVTools」，但「MVTools」效果不如「RIFE」。
 
 若配置更差，請使用「Anime4K」取代VS濾鏡。
